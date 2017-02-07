@@ -1,0 +1,24 @@
+{
+  "name": "miaoxing/mail",
+  "description": "Miaoxing Mail Plugin",
+  "keywords": [
+    "miaoxing", "mail"
+  ],
+  "license": "MIT",
+  "require": {
+    "miaoxing/app": "dev-master@dev",
+    "phpmailer/phpmailer": "5.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Miaoxing\\Mail\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MiaoxingTest\\Mail\\": "tests"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
