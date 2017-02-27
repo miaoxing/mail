@@ -1,6 +1,8 @@
 <?php
 
-namespace Miaoxing\Mail\docs {
+namespace Miaoxing\Mail\docs
+
+{
 
     use Miaoxing\Mail\Service\Mail;
 
@@ -12,7 +14,9 @@ namespace Miaoxing\Mail\docs {
     }
 }
 
-namespace {
+namespace
+
+{
     /**
      * @return \Miaoxing\Mail\docs\AutoComplete
      */

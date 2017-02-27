@@ -40,17 +40,21 @@ abstract class Base extends PHPMailer
 
         // 2. 调用发送程序
         $result = parent::send();
+        // @codingStandardsIgnoreLine
+        $errorInfo = $this->ErrorInfo;
+
         if (!$result) {
             $errors = $this->smtp ? $this->smtp->getError() : [];
-            $this->logger->alert($this->ErrorInfo, $errors);
+            $this->logger->alert($errorInfo, $errors);
         }
 
         return $result ?
             ['code' => 1, 'message' => '发送成功'] :
-            ['code' => -1, 'message' => $this->ErrorInfo];
+            ['code' => -1, 'message' => $errorInfo];
     }
 
     /**
+     * @codingStandardsIgnoreLine
      * 准备发送邮件的内容,如收件人,发信内容
      *
      * @return array
