@@ -3,8 +3,8 @@
 namespace Miaoxing\Mail;
 
 use PHPMailer;
-use Miaoxing\Plugin\Traits\Option;
-use Miaoxing\Plugin\Traits\Service;
+use Miaoxing\Plugin\Service\OptionTrait;
+use Miaoxing\Plugin\Service\ServiceTrait;
 
 /**
  * @property \Wei\Logger $logger
@@ -13,8 +13,8 @@ use Miaoxing\Plugin\Traits\Service;
  */
 abstract class Base extends PHPMailer
 {
-    use Option;
-    use Service;
+    use OptionTrait;
+    use ServiceTrait;
 
     /**
      * {@inheritdoc}
