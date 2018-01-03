@@ -16,9 +16,9 @@ class MailTest extends BaseTestCase
      */
     public function testCreate()
     {
-        $mail = wei()->mail->create(Register::className());
+        $mail = wei()->mail->create(Register::class);
 
-        $this->assertInstanceOf(Base::className(), $mail);
+        $this->assertInstanceOf(Base::class, $mail);
     }
 
     /**
@@ -26,7 +26,7 @@ class MailTest extends BaseTestCase
      */
     public function testSend()
     {
-        $ret = wei()->mail->send(Register::className());
+        $ret = wei()->mail->send(Register::class);
 
         $this->assertRetSuc($ret, 'sent!');
     }
