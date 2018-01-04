@@ -2,7 +2,7 @@
 
 namespace Miaoxing\Mail\Service;
 
-class Mail extends \miaoxing\plugin\BaseService
+class Mail extends \Miaoxing\Plugin\BaseService
 {
     /**
      * PHPMailer的配置
