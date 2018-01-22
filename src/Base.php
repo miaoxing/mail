@@ -62,18 +62,6 @@ abstract class Base extends PHPMailer
     abstract protected function prepare();
 
     /**
-     * Returns current class name
-     *
-     * 兼容5.5之前版本获取类名的方法
-     *
-     * @return string
-     */
-    public static function className()
-    {
-        return get_called_class();
-    }
-
-    /**
      * 生成随机字符数字串
      * @param int $length
      * @return string
