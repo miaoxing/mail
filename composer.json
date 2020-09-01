@@ -3,7 +3,8 @@
   "type": "miaoxing-plugin",
   "description": "Miaoxing Mail Plugin",
   "keywords": [
-    "miaoxing", "mail"
+    "miaoxing",
+    "mail"
   ],
   "license": "MIT",
   "require": {
