@@ -1,12 +1,13 @@
 {
   "name": "miaoxing/mail",
+  "type": "miaoxing-plugin",
   "description": "Miaoxing Mail Plugin",
   "keywords": [
     "miaoxing", "mail"
   ],
   "license": "MIT",
   "require": {
-    "miaoxing/app": "dev-master@dev",
+    "miaoxing/app": "^0.2.0",
     "phpmailer/phpmailer": "5.2.*"
   },
   "autoload": {
@@ -20,5 +21,15 @@
     }
   },
   "minimum-stability": "dev",
-  "prefer-stable": true
+  "prefer-stable": true,
+  "extra": {
+    "installer-types": [
+      "miaoxing-plugin"
+    ],
+    "installer-paths": {
+      "plugins/{$name}/": [
+        "type:miaoxing-plugin"
+      ]
+    }
+  }
 }
