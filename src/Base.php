@@ -3,8 +3,8 @@
 namespace Miaoxing\Mail;
 
 use PHPMailer;
-use Miaoxing\Plugin\Service\OptionTrait;
-use Miaoxing\Plugin\Service\ServiceTrait;
+use Miaoxing\Services\Service\OptionTrait;
+use Wei\ServiceTrait;
 
 /**
  * @property \Wei\Logger $logger
