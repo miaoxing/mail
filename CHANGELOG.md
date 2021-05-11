@@ -1,3 +1,19 @@
+## [0.1.15](https://github.com/miaoxing/mail/compare/v0.1.14...v0.1.15) (2021-05-11)
+
+
+### Bug Fixes
+
+* 解决类名未更新 ([981b7df](https://github.com/miaoxing/mail/commit/981b7dfcef3c00b01b251196a3044d569933f53a))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/app:** upgrade from `0.3.0` to `0.3.1`
+* **@miaoxing/dev:** upgrade from `6.4.0` to `7.0.0`
+
 ## [0.1.14](https://github.com/miaoxing/mail/compare/v0.1.13...v0.1.14) (2021-04-27)
 
 
