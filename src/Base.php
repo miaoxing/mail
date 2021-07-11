@@ -57,7 +57,7 @@ abstract class Base extends PHPMailer
      * @codingStandardsIgnoreLine
      * 准备发送邮件的内容,如收件人,发信内容
      *
-     * @return array
+     * @return array|void
      */
     abstract protected function prepare();
 
