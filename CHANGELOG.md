@@ -1,3 +1,18 @@
+## [0.1.27](https://github.com/miaoxing/mail/compare/v0.1.26...v0.1.27) (2022-07-02)
+
+
+### Bug Fixes
+
+* 解决 composer 2.2+ 默认不启用插件导致安装路径错误 ([a2619f4](https://github.com/miaoxing/mail/commit/a2619f4cfcf558a67adeb6e66ea40809f2d16236))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/app:** upgrade from `0.6.5` to `0.6.6`
+
 ## [0.1.26](https://github.com/miaoxing/mail/compare/v0.1.25...v0.1.26) (2022-07-01)
 
 
