@@ -2,7 +2,6 @@
 
 namespace Miaoxing\Mail;
 
-use PHPMailer;
 use Miaoxing\Services\Service\OptionTrait;
 use Wei\ServiceTrait;
 
@@ -11,7 +10,7 @@ use Wei\ServiceTrait;
  * @property \Wei\View $view
  * @property \wei\Url $url
  */
-abstract class Base extends PHPMailer
+abstract class Base extends \PHPMailer
 {
     use OptionTrait;
     use ServiceTrait;
@@ -34,13 +33,13 @@ abstract class Base extends PHPMailer
     {
         // 1. 准备内容
         $ret = $this->prepare();
-        if ($ret && $ret['code'] !== 1) {
+        if ($ret && 1 !== $ret['code']) {
             return $ret;
         }
 
         // 2. 调用发送程序
         $result = parent::send();
-        // @codingStandardsIgnoreLine
+        /** @codingStandardsIgnoreLine */
         $errorInfo = $this->ErrorInfo;
 
         if (!$result) {
