@@ -1,3 +1,19 @@
+## [0.1.56](https://github.com/miaoxing/mail/compare/v0.1.55...v0.1.56) (2024-09-01)
+
+
+### Features
+
+* 插件增加 wei 命令行入口 ([a372179](https://github.com/miaoxing/mail/commit/a372179860deccc37bfdb1f1adc3e46ea2cd19a7))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/app:** upgrade from `0.10.3` to `0.10.4`
+* **@miaoxing/dev:** upgrade from `9.1.3` to `9.2.0`
+
 ## [0.1.55](https://github.com/miaoxing/mail/compare/v0.1.54...v0.1.55) (2024-08-03)
 
 
