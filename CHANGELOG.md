@@ -1,3 +1,13 @@
+## [0.1.58](https://github.com/miaoxing/mail/compare/v0.1.57...v0.1.58) (2024-11-01)
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/app:** upgrade from `0.10.5` to `0.10.6`
+
 ## [0.1.57](https://github.com/miaoxing/mail/compare/v0.1.56...v0.1.57) (2024-09-30)
 
 
