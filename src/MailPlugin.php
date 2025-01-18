@@ -2,7 +2,7 @@
 
 namespace Miaoxing\Mail;
 
-class Plugin extends \Miaoxing\Plugin\BasePlugin
+class MailPlugin extends \Miaoxing\Plugin\BasePlugin
 {
     protected $name = '邮件服务';
 
