@@ -1,3 +1,18 @@
+## [0.1.62](https://github.com/miaoxing/mail/compare/v0.1.61...v0.1.62) (2025-02-02)
+
+
+### Bug Fixes
+
+* 更新插件类名为新版 ([d03a6be](https://github.com/miaoxing/mail/commit/d03a6be1efe7cfc442bf84828d8e6c133170c910))
+
+
+
+
+
+### Dependencies
+
+* **@miaoxing/app:** upgrade from `0.10.9` to `0.10.10`
+
 ## [0.1.61](https://github.com/miaoxing/mail/compare/v0.1.60...v0.1.61) (2024-12-31)
 
 
